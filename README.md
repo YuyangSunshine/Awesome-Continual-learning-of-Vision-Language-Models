@@ -8,6 +8,8 @@
 * (ECCV) Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models (DIKI). [[PDF](https://arxiv.org/pdf/2407.05342)] [[CODE](https://github.com/lloongx/DIKI)]
 * (NeurIPS) Advancing Cross-domain Discriminability in Continual Learning of Vision-Language Models (RAIL). [[PDF](https://arxiv.org/pdf/2406.18868)][[CODE](https://github.com/linghan1997/Regression-based-Analytic-Incremental-Learning)]
 * (arXiv) CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.19137.pdf)][[CODE](https://github.com/srvCodes/clap4clip)]
+* (arXiv) LW2G: Learning Whether to Grow for Prompt-based Continual Learning. [[PDF](https://arxiv.org/pdf/2409.18860.pdf)][[CODE](https://github.com/raian08/lw2g)]
+
 
 ### 2023
 * (CVPR) Preventing Zero-Shot Transfer Degradation in Continual Learning of Vision-Language Models (ZSCL). [[PDF](https://arxiv.org/abs/2303.06628)] [[CODE](https://github.com/Thunderbeee/ZSCL/tree/main)]
