@@ -3,7 +3,7 @@
 ## Paper-List
 
 ### 2025
-* (TPAMI) Learning without Forgetting for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2305.19270)][[CODE](https://gitee.com/zhoudw-zdw/PROOF/)]
+* (TPAMI) Learning without Forgetting for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2305.19270)][[CODE](https://github.com/zhoudw-zdw/PROOF/)]
 
 ### 2024
 * (CVPR) AttriCLIP: A Non-Incremental Learner for Incremental Knowledge Learning. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_AttriCLIP_A_Non-Incremental_Learner_for_Incremental_Knowledge_Learning_CVPR_2023_paper.pdf)][[CODE](https://gitee.com/mindspore/models/tree/master/research/)]
