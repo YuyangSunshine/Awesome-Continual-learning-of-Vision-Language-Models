@@ -20,11 +20,13 @@
 
 
 ### 2023
+* (AAAI) Symbolic Replay: Scene Graph as Prompt for Continual Learning on VQA Task. [[PDF](https://arxiv.org/pdf/2208.12037)] [[CODE](https://github.com/showlab/CLVQA)]
 * (CVPR) Preventing Zero-Shot Transfer Degradation in Continual Learning of Vision-Language Models (ZSCL). [[PDF](https://arxiv.org/abs/2303.06628)] [[CODE](https://github.com/Thunderbeee/ZSCL/tree/main)]
 * (CVPR) Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters. [[PDF](https://arxiv.org/abs/2403.11549)] [[CODE](https://github.com/JiazuoYu/MoE-Adapters4CL)]
 * (CVPR) VQACL: A Novel Visual Question Answering Continual Learning Setting. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_VQACL_A_Novel_Visual_Question_Answering_Continual_Learning_Setting_CVPR_2023_paper.pdf)] [[CODE](https://github.com/zhangxi1997/VQACL)]
 * (ICCV) CTP: Towards Vision-Language Continual Pretraining via Compatible Momentum Contrast and Topology Preservation [[PDF](https://arxiv.org/pdf/2308.07146)] [[CODE](https://github.com/KevinLight831/CTP)]
 * (ICCV) Decouple Before Interact: Multi-Modal Prompt Learning for Continual Visual Question Answering [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Qian_Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question_ICCV_2023_paper.pdf)]
+* (ICCVW) Multimodal Parameter-Efficient Few-Shot Class Incremental Learning. [[PDF](https://arxiv.org/pdf/2303.04751)]
 * (ICML) Continual vision-language representation learning with off-diagonal information. [[PDF](https://proceedings.mlr.press/v202/ni23c/ni23c.pdf)] [[CODE](https://github.com/Thunderbeee/ZSCL/tree/main)]
 * (arXiv) Class Incremental Learning with Pre-trained Vision-Language Models. [[PDF](https://arxiv.org/pdf/2310.20348.pdf)]
 
