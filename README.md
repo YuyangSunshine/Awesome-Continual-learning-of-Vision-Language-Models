@@ -74,9 +74,9 @@ This repository aims to **systematically organize** research advancements, and d
 | **TinyImageNet**    |	Classification           |	CIL	                       |Image              |	Natural Images  |	200 |	100K images	 |Accuracy |	Link |
 | **MDL-VQA**         |	VQA                      |	DIL	                       |Image+Text         |	5 Visual Domains (Art, Abstract, etc.)   |	5 |	~150K QA	 |VQA Accuracy |	Link |
 | **P9D**             |	Multimodal Retrieval     |	DIL / TIL	                 |Image+Text         |	9 Industries |	9	 |1M+ image-text pairs |	Retrieval mAP |	Link |
-| **CLVQA**           |	VQA                      |	Scene/Function-Incremental |	Image+Text        |	Scenes & Functions |	2 |	~100K QA |	Scene/Function Accuracy |	Link |
-| **COCO-CL**         |	Detection/Segmentation   |	CIL                        |	Image+Annotations |	Natural Scenes        |	80 |	200K+ instances	mAP (Detection), mIoU (Segmentation)	 |Link |
-| **ADE20K-CL**       |	Segmentation             |	CIL                        |	Image+Annotations |	Indoor/Outdoor        |	150	 |25K images	mIoU	 |Link |
+| **CLVQA**           |	VQA                      |	Scene/Function-Incremental |	Image+Text        |	Scenes & Functions |	2 |	~100K QA |	Scene/Function | Accuracy |	Link |
+| **COCO-CL**         |	Detection/Segmentation   |	CIL                        |	Image+Annotations |	Natural Scenes        |	80 |	200K+ instances |	mAP (Detection), mIoU (Segmentation)	 |Link |
+| **ADE20K-CL**       |	Segmentation             |	CIL                        |	Image+Annotations |	Indoor/Outdoor        |	150	 |25K images |	mIoU	 |Link |
 
  ### Notes:  
 - **CIL (Class-Incremental Learning)**: New classes are added incrementally.  
