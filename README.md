@@ -56,10 +56,25 @@ This repository aims to **systematically organize** research advancements, and d
 ---
 
 ## 🗂️ Datasets  
-| Dataset | Description | Link |  
-|---------|-------------|------|  
-| **COCO-CL** | Continual splits of COCO for VLMs | [Download](#) |  
-| **Flickr30K-Stream** | Sequential annotation batches | [Download](#) |  
+*Datasets are categorized by their application tasks and continual learning scenarios. Key attributes include:*  
+- **Task Type**: Classification, VQA, Detection, Segmentation, etc.  
+- **CL Scenario**: Domain-Incremental (DIL), Task-Incremental (TIL), Class-Incremental (CIL).  
+- **# Tasks**: Number of sequential tasks.  
+- **Scale**: Approximate data size (images/text pairs).
+
+| Dataset       | Task Type       | CL Scenario | # Tasks | Scale       | Link         |  
+|---------------|-----------------|-------------|---------|-------------|--------------|  
+| **COCO-CL**   | Detection       | CIL         | 10      | 120K images | [Download](#)|  
+| **Flickr30K-Stream** | Retrieval | TIL         | 5       | 30K pairs   | [Download](#)|  
+| **VQA-CL**    | VQA             | DIL         | 8       | 200K QA     | [Download](#)|  
+| **ADE20K-CL** | Segmentation    | CIL         | 6       | 25K images  | [Download](#)|  
+| **CIFAR-100S**| Classification  | CIL         | 20      | 60K images  | [Download](#)|  
+| **CLiMB**     | VQA             | DIL         | 4       | *          | [Download](https://github.com/GLAMOR-USC/CLiMB)|  
+
+ ### Notes:  
+- **CIL (Class-Incremental Learning)**: New classes are added incrementally.  
+- **TIL (Task-Incremental Learning)**: Tasks are disjoint, and task IDs are provided during inference.  
+- **DIL (Domain-Incremental Learning)**: Data distribution shifts across domains (e.g., weather, lighting).  
 
 ---
 
