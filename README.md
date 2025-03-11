@@ -71,6 +71,21 @@ This repository aims to **systematically organize** research advancements, and d
 | **CIFAR-100S**| Classification  | CIL         | 20      | 60K images  | [Download](#)|  
 | **CLiMB**     | VQA             | DIL         | 4       | *          | [Download](https://github.com/GLAMOR-USC/CLiMB)|  
 
+Dataset	Task Type	CL Scenario	Modality	Domain	# Tasks	Scale	Metrics	Link
+CDDB	Classification	DIL (Domain-Incremental)	Image	Multi-Domain	10	~50K images	Accuracy	Link
+CORe50	Classification	DIL	Video	Robotics	10	50K video clips	Accuracy	Link
+DomainNet	Classification	DIL	Image	6 Domains (e.g., Sketch, Painting)	6	600K images	Accuracy	Link
+Climb	Multimodal Understanding	TIL (Task-Incremental)	Image+Text	General	4	VQAv2 (200K QA), NLVR2 (100K pairs), SNLI-VE (500K pairs), VCR (290K QA)	VQA Accuracy, NLVR2 F1	Link
+Conceptual 12M	Segmentation	CIL / Instance-Incremental	Image+Text	Open-World	N/A	12M image-text pairs	mIoU, mAP	Link
+ImageNet-100/1K	Classification	CIL / DIL / Task-Agnostic	Image	Natural Images	10-100	130K-1.3M images	Top-1/5 Accuracy	Link
+CIFAR-100	Classification	CIL	Image	Natural Images	20	60K images	Accuracy	Link
+TinyImageNet	Classification	CIL	Image	Natural Images	200	100K images	Accuracy	Link
+MDL-VQA	VQA	DIL	Image+Text	5 Visual Domains (Art, Abstract, etc.)	5	~150K QA	VQA Accuracy	Link
+P9D	Multimodal Retrieval	DIL / TIL	Image+Text	9 Industries	9	1M+ image-text pairs	Retrieval mAP	Link
+CLVQA	VQA	Scene/Function-Incremental	Image+Text	Scenes & Functions	2	~100K QA	Scene/Function Accuracy	Link
+COCO-CL	Detection/Segmentation	CIL	Image+Annotations	Natural Scenes	80	200K+ instances	mAP (Detection), mIoU (Segmentation)	Link
+ADE20K-CL	Segmentation	CIL	Image+Annotations	Indoor/Outdoor	150	25K images	mIoU	Link
+
  ### Notes:  
 - **CIL (Class-Incremental Learning)**: New classes are added incrementally.  
 - **TIL (Task-Incremental Learning)**: Tasks are disjoint, and task IDs are provided during inference.  
