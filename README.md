@@ -1,6 +1,16 @@
-# Awesome-Continual-learning-of-Vision-Language-Models
+# Awesome Continual Learning of Vision-Language Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+> A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs).  
+> *Last updated: [2025-03-11]*
 
-## Paper-List
+---
+
+## 📜 Overview  
+This repository aims to **systematically organize** research advancements, and discussions on continual learning for vision-language models (VLMs). Vision-language models (e.g., CLIP, ALIGN) have shown remarkable progress, but adapting them to evolving data streams without catastrophic forgetting remains a critical challenge. This repo serves as a **community-driven hub** for:  
+- 🎯 **Tracking SOTA methods**: Papers, preprints, and codebases for continual VLM learning.  
+- 🌍 **Fostering collaboration**: Encouraging open discussions and contributions.  
+
+## 📄 Papers  
+*Sorted chronologically (newest first).*  
 
 ### 2025
 * (CVPR) Synthetic Data is an Elegant GIFT for Continual Vision-Language Models. [[PDF](https://arxiv.org/pdf/2503.04229)][[CODE](https://github.com/Luo-Jiaming/GIFT_CL)]
@@ -42,4 +52,28 @@
 * (Neurips) Climb: A continual learning benchmark for vision-and-language tasks. [[PDF](https://proceedings.neurips.cc/paper_files/paper/2022/file/bd3611971089d466ab4ca96a20f7ab13-Paper-Datasets_and_Benchmarks.pdf)] [[CODE](https://github.com/GLAMOR-USC/CLiMB)]
 * (ECCV) Generative Negative Text Replay for Continual Vision-Language Pretraining. [[PDF](https://arxiv.org/pdf/2210.17322)] 
 * (arxiv) Continual-CLIP: CLIP is an Efficient Continual Learner. [[PDF](https://arxiv.org/abs/2210.03114)] [[CODE](https://github.com/vgthengane/Continual-CLIP/tree/master)]
+
+---
+
+## 🗂️ Datasets  
+| Dataset | Description | Link |  
+|---------|-------------|------|  
+| **COCO-CL** | Continual splits of COCO for VLMs | [Download](#) |  
+| **Flickr30K-Stream** | Sequential annotation batches | [Download](#) |  
+
+---
+
+## 🌟 Related Resources  
+- [Awesome Continual Learning](https://github.com/xialeiliu/Awesome-Incremental-Learning)  
+- [Awesome Vision-Language Models](https://github.com/jingyi0000/VLM_survey)  
+
+---
+
+## 🛠️ Maintenance  
+*Maintainer*: [Yuyang Liu](https://github.com/YuyangSunshine), Qiuhe Hong and Dipam Goswami
+*Contact*: sunshineliuyuyang@gmail.com  
+*Star the repo to show support!* ⭐  
+
+*Acknowledgments: This repo builds on the efforts of the open-source community.*  
+
 
