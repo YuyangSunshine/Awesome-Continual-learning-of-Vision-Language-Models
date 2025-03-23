@@ -34,8 +34,8 @@ This repository aims to **systematically organize** research advancements, and d
 * (NeurIPS) Advancing Cross-domain Discriminability in Continual Learning of Vision-Language Models (RAIL). [[PDF](https://arxiv.org/pdf/2406.18868)][[CODE](https://github.com/linghan1997/Regression-based-Analytic-Incremental-Learning)]
 * (ACM MM) Low-rank Prompt Interaction for Continual Vision-language Retrieval. [[PDF](https://arxiv.org/pdf/2501.14369)][[CODE](https://github.com/Kelvin-ywc/LPI)]
 * (IJCAI) Continual Multimodal Knowledge Graph Construction. [[PDF](https://arxiv.org/pdf/2305.08698)] [[CODE](https://github.com/zjunlp/ContinueMKGC)]
-* (arXiv) CoLeCLIP: Open-Domain Continual Learning via Joint Task Prompt and Vocabulary Learning. [[PDF](https://arxiv.org/pdf/2305.08698)] [[CODE](https://github.com/zjunlp/ContinueMKGC)]
-* (arXiv) CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.19137.pdf)][[CODE](https://github.com/srvCodes/clap4clip)]
+* (arXiv) CoLeCLIP: Open-Domain Continual Learning via Joint Task Prompt and Vocabulary Learning. [[PDF](https://arxiv.org/pdf/2403.10245)]
+* (NeurIPS) CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.19137.pdf)][[CODE](https://github.com/srvCodes/clap4clip)]
 * (arXiv) LW2G: Learning Whether to Grow for Prompt-based Continual Learning. [[PDF](https://arxiv.org/pdf/2409.18860.pdf)][[CODE](https://github.com/raian08/lw2g)]
 * (arXiv) ATLAS: Adapter-Based Multi-Modal Continual Learning with a Two-Stage Learning Strategy. [[PDF](https://arxiv.org/pdf/2410.10923.pdf)][[CODE](https://github.com/lihong2303/ATLAS)]
 
