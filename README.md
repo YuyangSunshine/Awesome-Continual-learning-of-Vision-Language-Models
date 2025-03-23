@@ -18,6 +18,7 @@ This repository aims to **systematically organize** research advancements, and d
 * (TPAMI) Learning without Forgetting for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2305.19270)][[CODE](https://github.com/zhoudw-zdw/PROOF/)]
 * (IEEE Trans. Multimedia) Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model. [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10897910)][[CODE](https://openi.pcl.ac.cn/OpenMedIA/CIL_Adapterd_VLM)]
 * (arXiv) No Images, No Problem: Retaining Knowledge in Continual VQA with Questions-Only Memory. [[PDF](https://arxiv.org/pdf/2502.04469.pdf)][[CODE](https://github.com/IemProg/QUAD)]
+* (arxiv) LVP-CLIP: Revisiting CLIP for Continual Learning with Label Vector Pool. [[PDF](https://arxiv.org/pdf/2412.05840)]
 
 ### 2024
 * (ICLR) TiC-CLIP: Continual Training of CLIP Models.[[PDF](https://arxiv.org/pdf/2310.16226)][[CODE](https://github.com/apple/ml-tic-clip)]
@@ -38,6 +39,8 @@ This repository aims to **systematically organize** research advancements, and d
 * (NeurIPS) CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.19137.pdf)][[CODE](https://github.com/srvCodes/clap4clip)]
 * (arXiv) LW2G: Learning Whether to Grow for Prompt-based Continual Learning. [[PDF](https://arxiv.org/pdf/2409.18860.pdf)][[CODE](https://github.com/raian08/lw2g)]
 * (arXiv) ATLAS: Adapter-Based Multi-Modal Continual Learning with a Two-Stage Learning Strategy. [[PDF](https://arxiv.org/pdf/2410.10923.pdf)][[CODE](https://github.com/lihong2303/ATLAS)]
+* (arxiv) Exploiting the Semantic Knowledge of Pre-trained Text-Encoders for Continual Learning. [[PDF](https://arxiv.org/pdf/2408.01076)]
+* (arxiv) CLIP model is an Efficient Online Lifelong Learner. [[PDF](https://arxiv.org/pdf/2405.15155)]
 
 ### 2023
 * (AAAI) Symbolic Replay: Scene Graph as Prompt for Continual Learning on VQA Task. [[PDF](https://arxiv.org/pdf/2208.12037)] [[CODE](https://github.com/showlab/CLVQA)]
