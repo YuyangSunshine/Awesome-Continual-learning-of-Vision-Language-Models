@@ -29,8 +29,9 @@ This repository aims to **systematically organize** research advancements, and d
 * (arxiv) Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA. [[PDF](https://arxiv.org/pdf/2412.01004)]
 * (arxiv) Boosting Open-Domain Continual Learning via Leveraging Intra-domain Category-aware Prototype. [[PDF](https://arxiv.org/pdf/2408.09984)]
 * (AAAI) Embracing Language Inclusivity and Diversity in CLIP through Continual Language Learning.[[PDF](https://arxiv.org/pdf/2401.17186)][[CODE](https://github.com/yangbang18/CLFM)]
-* (AAAI) Continual Vision-Language Retrieval via Dynamic Knowledge Rectification. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/29054/29997)]
+* (AAAI) Continual Vision-Language Retrieval via Dynamic Knowledge Rectification. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/29054)]
 * (AAAI) Learning Task-Aware Language-Image Representation for Class-Incremental Object Detection. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/28537)]
+* (AAAI) GCD: Advancing Vision-Language Models for Incremental Object Detection via Global Alignment and Correspondence Distillation [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/32864)]
 * (ECCV) Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models (DIKI). [[PDF](https://arxiv.org/pdf/2407.05342)] [[CODE](https://github.com/lloongx/DIKI)]
 * (ECCV) Adapt without Forgetting: Distill Proximity from Dual Teachers in Vision-Language Models. [[PDF](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07052.pdf)]
 * (ECCV) Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.09296)]
@@ -115,7 +116,7 @@ This repository aims to **systematically organize** research advancements, and d
 ---
 
 ## 🛠️ Maintenance  
-*Maintainer*: [Yuyang Liu](https://github.com/YuyangSunshine), Qiuhe Hong and Dipam Goswami 
+*Maintainer*: [Yuyang Liu](https://github.com/YuyangSunshine), Qiuhe Hong and [Dipam Goswami](https://github.com/dipamgoswami) 
 *Contact*: sunshineliuyuyang@gmail.com  
 *Star the repo to show support!* ⭐  
 
