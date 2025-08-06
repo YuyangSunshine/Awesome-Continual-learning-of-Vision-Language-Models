@@ -13,15 +13,18 @@ This repository aims to **systematically organize** research advancements, and d
 *Sorted chronologically (newest first).*  
 
 ### 2025
+* (ACL) HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model. [[PDF](https://arxiv.org/pdf/2503.12941)][[CODE](https://github.com/Ghy0501/HiDe-LLaVA)]
 * (ICCV) Mind the Gap: Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning. [[PDF](https://arxiv.org/pdf/2507.09118)][[CODE](https://github.com/linlany/MindtheGap)]
 * (ICML) LADA: Scalable Label-Specific CLIP Adapter for Continual Learning. [[PDF](https://arxiv.org/abs/2505.23271)][[CODE](https://github.com/MaolinLuo/LADA)]
 * (ICLR) C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[PDF](https://openreview.net/pdf?id=sb7qHFYwBc)][[CODE](https://github.com/SmallPigPeppa/C-CLIP)]
 * (CVPR) Synthetic Data is an Elegant GIFT for Continual Vision-Language Models. [[PDF](https://arxiv.org/pdf/2503.04229)][[CODE](https://github.com/Luo-Jiaming/GIFT_CL)]
 * (CVPR) Language Guided Concept Bottleneck Models for Interpretable Continual Learning. [[PDF](https://arxiv.org/pdf/2503.23283)][[CODE](https://github.com/FisherCats/CLG-CBM)]
 * (TPAMI) Learning without Forgetting for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2305.19270)][[CODE](https://github.com/zhoudw-zdw/PROOF/)]
-* (IEEE Trans. Multimedia) Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model. [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10897910)][[CODE](https://openi.pcl.ac.cn/OpenMedIA/CIL_Adapterd_VLM)]
+* (TMM) Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model. [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10897910)][[CODE](https://openi.pcl.ac.cn/OpenMedIA/CIL_Adapterd_VLM)]
 * (arXiv) No Images, No Problem: Retaining Knowledge in Continual VQA with Questions-Only Memory. [[PDF](https://arxiv.org/pdf/2502.04469.pdf)][[CODE](https://github.com/IemProg/QUAD)]
 * (arxiv) LVP-CLIP: Revisiting CLIP for Continual Learning with Label Vector Pool. [[PDF](https://arxiv.org/pdf/2412.05840)]
+* (arxiv) MLLM-CL: Continual Learning for Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2506.05453)][[CODE](https://github.com/bjzhb666/MLLM-CL?tab=readme-ov-file)]
+* (arXiv) GNSP: Gradient Null Space Projection for Preserving Cross-Modal Alignment in VLMs Continual Learning. [[PDF](https://arxiv.org/pdf/2507.19839.pdf)][[CODE](https://github.com/Ppp-Ttt/GNSP)]
 
 ### 2024
 * (TMLR) Continual Learning in Open-vocabulary Classification with Complementary Memory Systems. [[PDF](https://arxiv.org/pdf/2307.01430)]
