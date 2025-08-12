@@ -3,7 +3,7 @@
 > *Last updated: 2025-08-12*
 
 <p align="center">
-  <img src="./assets/Methods_Overview_01.png" alt="Overview of VLM-CL" width="700"/>
+  <img src="./assets/Methods_Overview_01.png" alt="Overview of VLM-CL" width="500"/>
 </p>
 
 ---
@@ -27,7 +27,7 @@ This repository is the official resource hub for our survey paper, **"Continual 
 Vision-language models (VLMs) like CLIP have achieved remarkable success, but adapting them to evolving data streams without **catastrophic forgetting** is a critical challenge. This repository provides a systematic review of research on continual learning for VLMs (VLM-CL).
 
 <p align="center">
-  <img src="./assets/all_challenges_01.png" alt="Challenge of VLM-CL" width="700"/>
+  <img src="./assets/all_challenges_01.png" alt="Challenge of VLM-CL" width="400"/>
 </p>
 
 Our survey identifies three core failure modes in VLM-CL:
@@ -36,7 +36,7 @@ Our survey identifies three core failure modes in VLM-CL:
 - 📉 **Zero-Shot Capability Erosion**: The loss of generalization to unseen tasks after the model is fine-tuned on specific downstream tasks.
 
 <p align="center">
-  <img src="./assets/figure2_01.png" alt="Summary of VLM-CL" width="700"/>
+  <img src="./assets/figure2_01.png" alt="Summary of VLM-CL" width="800"/>
 </p>
 
 Based on these challenges, we propose a **solution-driven taxonomy** to categorize existing methods, which forms the structure for the paper list below. This repository serves as a community-driven hub for tracking state-of-the-art methods, datasets, and fostering collaboration.
