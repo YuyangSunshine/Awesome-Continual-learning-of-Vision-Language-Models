@@ -1,14 +1,36 @@
-# Awesome Continual Learning of Vision-Language Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-> A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs).  
-> *Last updated: [2025-07-18]*
+# Awesome Continual Learning for Vision-Language Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+> A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs), accompanying our survey paper.
+> *Last updated: 2025-08-12*
+
 
 ---
 
-## 📜 Overview  
-This repository aims to **systematically organize** research advancements, and discussions on continual learning for vision-language models (VLMs). Vision-language models (e.g., CLIP, ALIGN) have shown remarkable progress, but adapting them to evolving data streams without catastrophic forgetting remains a critical challenge. This repo serves as a **community-driven hub** for:  
-- 🎯 **Tracking SOTA methods**: Papers, preprints, and codebases for continual VLM learning.  
-- 🌍 **Fostering collaboration**: Encouraging open discussions and contributions.  
+## 📣 Citing Our Work
+This repository is the official resource hub for our survey paper, **"Continual Learning for VLMs: A Survey and Taxonomy Beyond Forgetting"**. If you find this repository or our survey useful for your research, please consider citing our work:
 
+```bibtex
+@article{liu2025continual,
+  title={Continual Learning for VLMs: A Survey and Taxonomy Beyond Forgetting},
+  author={Liu, Yuyang and Hong, Qiuhe and Huang, Linlan and Gomez-Villa, Alexandra and Goswami, Dipam and Liu, Xialei and van de Weijer, Joost and Tian, Yonghong},
+  journal={arXiv preprint arXiv:2508.04227},
+  year={2025}
+}
+```
+[[Paper PDF](https://arxiv.org/pdf/2508.04227v1.pdf)]
+
+---
+
+## 📜 Overview
+Vision-language models (VLMs) like CLIP have achieved remarkable success, but adapting them to evolving data streams without **catastrophic forgetting** is a critical challenge. This repository provides a systematic review of research on continual learning for VLMs (VLM-CL).
+
+Our survey identifies three core failure modes in VLM-CL:
+- 🧠 **Cross-Modal Feature Drift**: The degradation of alignment between visual and textual feature spaces during updates.
+- ⚙️ **Shared Module Interference**: Destructive weight updates in shared components like cross-attention layers, which is common in fusion-based models.
+- 📉 **Zero-Shot Capability Erosion**: The loss of generalization to unseen tasks after the model is fine-tuned on specific downstream tasks.
+
+Based on these challenges, we propose a **solution-driven taxonomy** to categorize existing methods, which forms the structure for the paper list below. This repository serves as a community-driven hub for tracking state-of-the-art methods, datasets, and fostering collaboration.
+
+---
 ## 📄 Papers  
 *Sorted chronologically (newest first).*  
 
@@ -75,46 +97,34 @@ This repository aims to **systematically organize** research advancements, and d
 
 ---
 
-## 🗂️ Datasets  
-*Datasets categorized by task type, CL scenarios, modality, domain, and scale. Key attributes include:*  
-- **Task Type**: Classification, VQA, Detection, Segmentation, etc.  
-- **CL Scenario**: Domain-Incremental (DIL), Task-Incremental (TIL), Class-Incremental (CIL).  
-- **# Tasks**: Number of sequential tasks.  
-- **Scale**: Approximate data size (images/text pairs).
+## 🗂️ Datasets & Benchmarks
+Evaluating VLM-CL requires specialized benchmarks. Our survey categorizes them into three tiers: **Repurposed Unimodal**, **Adapted Multimodal**, and **Native VLM-CL** benchmarks. The table below summarizes key datasets used in the literature.
 
-| Dataset             | Task Type                       | CL Scenario                | Modality          | Domain                                 | # Tasks | Scale                                                        | Metrics                                                  | Link                                                         |
-| ------------------- | ------------------------------- | -------------------------- | ----------------- | -------------------------------------- | ------- | ------------------------------------------------------------ | -------------------------------------------------------- | ------------------------------------------------------------ |
-| **CDDB**            | Classification                  | DIL                        | Image             | Multi-Domain                           | 10      | ~50K images                                                  | Accuracy                                                 | Link                                                         |
-| **CORe50**          | Classification                  | DIL                        | Video             | Robotics                               | 10      | 50K video clips                                              | Accuracy                                                 | Link                                                         |
-| **DomainNet**       | Classification                  | DIL                        | Image             | 6 Domains (e.g., Sketch, Painting)     | 6       | 600K images                                                  | Accuracy                                                 | Link                                                         |
-| **Climb**           | Multimodal Understanding        | TIL                        | Image+Text        | General                                | 4       | VQAv2 (200K QA), NLVR2 (100K pairs), SNLI-VE (500K pairs), VCR (290K QA) | VQA Accuracy, NLVR2 F1                                   | [Download](https://github.com/GLAMOR-USC/CLiMB)              |
-| **Conceptual 12M**  | Segmentation                    | CIL / Instance-Incremental | Image+Text        | Open-World                             | N/A     | 12M image-text pairs                                         | mIoU, mAP                                                | Link                                                         |
-| **ImageNet-100/1K** | Classification                  | CIL / DIL / Task-Agnostic  | Image             | Natural Images                         | 10-100  | 130K-1.3M images                                             | Top-1/5 Accuracy                                         | Link                                                         |
-| **ODCL（MTIL）**    | Classification                  | TIL / CIL                  | Image             | Natural Images                         | 11      | Aircraft(4.3K images), Caltech101(9K images), CIFAR100(60K images), DTD(5.6K images), EuroSAT(27K images), Flowers(8K images), Food(101K images), MNIST(70K images), OxfordPet(7.3K images), StanfordCars(16K images), SUN397(130K images) | Accuracy                                                 |                                                              |
-| **TinyImageNet**    | Classification                  | CIL                        | Image             | Natural Images                         | 200     | 100K images                                                  | Accuracy                                                 | Link                                                         |
-| **CIFAR100**        | Classification                  | CIL                        | Image             | Natural Images                         | 10      | 60K images                                                   | Accuracy                                                 | Link                                                         |
-| **CUB200**          | Classification                  | CIL                        | Image             | Natural Images                         | 10      | 11.7K images                                                 | Accuracy                                                 | Link                                                         |
-| **VTAB**            | Classification                  | CIL                        | Image             | Natural Images                         | 5       | 10K images                                                   | Accuracy                                                 | Link                                                         |
-| **MDL-VQA**         | VQA                             | DIL                        | Image+Text        | 5 Visual Domains (Art, Abstract, etc.) | 5       | ~150K QA                                                     | VQA Accuracy                                             | Link                                                         |
-| **P9D**             | Multimodal Retrieval            | DIL / TIL                  | Image+Text        | 9 Industries                           | 9       | 1M+ image-text pairs                                         | Retrieval mAP                                            | Link                                                         |
-| **CLVQA**           | VQA                             | Scene/Function-Incremental | Image+Text        | Scenes & Functions                     | 2       | ~100K QA                                                     | Scene/Function Accuracy                                  | Link                                                         |
-| **COCO-CL**         | Detection/Segmentation/Retrival | CIL                        | Image+Annotations | Natural Scenes                         | 80      | 200K+ instances                                              | mAP (Detection), mIoU (Segmentation), Accuracy(Retrival) | Link                                                         |
-| **ADE20K-CL**       | Segmentation                    | CIL                        | Image+Annotations | Indoor/Outdoor                         | 150     | 25K images                                                   | mIoU                                                     | Link                                                         |
-| **CLEAR-10/100**    | Classification                  | CIL/DIL                    | Image             | Temporal Natural Images                | 10      | 4.3M-18.6M images                                            | Accuracy                                                 | [Link](https://clear-benchmark.github.io/)                   |
-| **Flicker30K**      | Retrival                        | CIL                        | Image+Annotations | Natural Scenes                         | N/A     | 30K images                                                   | Accuracy                                                 | [Link](https://shannon.cs.illinois.edu/DenotationGraph/)     |
-| **ECommerce-T2I**   | Retrival                        | CIL                        | Image+Annotations | Goods                                  | N/A     | 15K images                                                   | Accuracy                                                 | [Link](https://tianchi.aliyun.com/dataset/107332)            |
-| **NExT-QA**         | VQA                             | TIL                        | Videos+Text       | Natural Scenes                         | 8       | 5K videos+52K  QA                                            | AP                                                       |                                                              |
-| **CLOVE**           | VQA                             | Scene/Function-Incremental | Image+Text        | Scenes & Functions                     | 6       | N/A                                                          | Accuracy                                                 | [Link](github.com/showlab/CLVQA?tab=readme-ov-file)          |
-| **Omni**            | Classification                  | CIL                        | Image             | Natural Scenes                         | 21      | 1M+ images                                                   | Accuracy                                                 | [Link](https://zhangyuanhan-ai.github.io/OmniBenchmark/)     |
-| **IMRE**            | Relation Extraction             | TIL                        | Images+Text       | Social Media Posts                     | 10      | 9K images                                                    | F1 Score                                                 | [Link](https://github.com/thechaLinkrm/Mega?tab=readme-ov-file) |
-| **IMNER**           | Named Entity Recognition        | TIL                        | Images+Text       | Social Media Posts                     | 4       | 8.5K images                                                  | F1 Score                                                 | [Link](https://github.com/thechaLinkrm/Mega?tab=readme-ov-file) |
-| **TiC-DataComp**    | Retrival / Classification       | Time Continual             | Images+Text       | Web Crawled Data                       | 9       | 12.7B image-text pairs                                       | Accuracy / Recall@1                                      |                                                              |
-| **TiC-YFCC**        | Retrival / Classification       | Time Continual             | Images+Text       | Natural Scenes                         | 17      | 15M image-text pairs                                         | Accuracy / Recall@1                                      |                                                              |
-| **TiC-RedCaps**     | Retrival / Classification       | Time Continual             | Images+Text       | Social Media Posts                     | 10      | 12M image-text pairs                                         | Accuracy / Recall@1                                      |                                                              |
- ### Notes:  
-- **CIL (Class-Incremental Learning)**: New classes are added incrementally.  
-- **TIL (Task-Incremental Learning)**: Tasks are disjoint, and task IDs are provided during inference.  
-- **DIL (Domain-Incremental Learning)**: Data distribution shifts across domains (e.g., weather, lighting).  
+| Dataset          | Task Type              | CL Scenario  | Modality            | Domain                 | # Tasks | Scale (Approx.)              | Link/Source                                                  |
+| ---------------- | ---------------------- | ------------ | ------------------- | ---------------------- | ------- | ---------------------------- | ------------------------------------------------------------ |
+| **Climb** | VQA, Retrieval         | TIL          | Image+Text          | General                | 4       | 1.1M QA/Pairs                | [[GitHub](https://github.com/GLAMOR-USC/CLiMB)]              |
+| **VQACL** | VQA                    | TIL/DIL      | Image+Text          | Scenes & Functions     | 2+      | 100K QA                      | [[GitHub](https://github.com/zhangxi1997/VQACL)]             |
+| **COCO-CL** | Detection, Seg, Ret.   | CIL          | Image+Annotations   | Natural Scenes         | 80      | 200K+ Instances              | [[Paper](https://arxiv.org/abs/2007.03337)]                   |
+| **TiC-Benchmark**| Retrieval, Class.      | Time-IL      | Image+Text          | Web Crawled            | 9-17    | 12M - 12.7B Pairs            | [[Paper](https://arxiv.org/abs/2310.16226)]                  |
+| **MTIL** | Classification         | TIL/CIL      | Image               | 11 Natural Image Sets  | 11      | 438K Images                  | [[Paper](https://arxiv.org/abs/2303.06628)]                  |
+| **MDL-VQA** | VQA                    | DIL          | Image+Text          | 5 Visual Domains       | 5       | 150K QA                      | [[Paper](https://dl.acm.org/doi/10.1145/3581783.3612121)]    |
+| **ImageNet-CIL** | Classification         | CIL          | Image               | Natural Images         | 10-100  | 1.3M Images                  | [[Link](http://www.image-net.org/)]                          |
+| **DomainNet** | Classification         | DIL          | Image               | 6 Domains              | 6       | 600K Images                  | [[Link](http://ai.bu.edu/DomainNet/)]                        |
+| **CIFAR100-CIL** | Classification         | CIL          | Image               | Natural Images         | 10      | 60K Images                   | [[Link](https://www.cs.toronto.edu/~kriz/cifar.html)]         |
+| **CLEAR** | Classification         | CIL/DIL      | Image               | Temporal Natural Images| 10      | 4.3M - 18.6M Images          | [[Homepage](https://clear-benchmark.github.io/)]             |
+
+#### Notes on CL Scenarios:
+- **CIL (Class-Incremental Learning)**: New classes are added in sequential tasks.
+- **TIL (Task-Incremental Learning)**: Tasks are distinct, and the task identity is known at inference time.
+- **DIL (Domain-Incremental Learning)**: The data distribution shifts across tasks (e.g., photos to sketches), but the task itself remains the same.
+
+---
+
+## 🤝 How to Contribute
+We welcome contributions! If you have a paper, dataset, or codebase that should be on this list, please open a **Pull Request**.
+1.  Fork the repository.
+2.  Add your resource to the appropriate section in `README.md`. Please maintain the existing format.
+3.  Submit a pull request with a clear title and description.
 
 ---
 
@@ -124,11 +134,11 @@ This repository aims to **systematically organize** research advancements, and d
 
 ---
 
-## 🛠️ Maintenance  
-*Maintainer*: [Yuyang Liu](https://github.com/YuyangSunshine), Qiuhe Hong and [Dipam Goswami](https://github.com/dipamgoswami) 
-*Contact*: sunshineliuyuyang@gmail.com  
-*Star the repo to show support!* ⭐  
+## 🛠️ Maintenance
+* **Maintainers**: [Yuyang Liu](https://github.com/YuyangSunshine), Qiuhe Hong, [Linlan Huang](https://github.com/linlany), [Alexandra Gomez-Villa](https://github.com/AlexAndorra), and [Dipam Goswami](https://github.com/dipamgoswami).
+* **Contact**: sunshineliuyuyang@gmail.com
+* *Star the repo to show your support!* ⭐
 
-*Acknowledgments: This repo builds on the efforts of the open-source community.*  
+*Acknowledgments: This repository builds on the incredible efforts of the open-source research community.*
 
 
