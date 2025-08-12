@@ -2,6 +2,9 @@
 > A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs), accompanying our survey paper.
 > *Last updated: 2025-08-12*
 
+<p align="center">
+  <img src="./assets/Methods_Overview_01.png" alt="Overview of VLM-CL" width="700"/>
+</p>
 
 ---
 
@@ -23,14 +26,32 @@ This repository is the official resource hub for our survey paper, **"Continual 
 ## 📜 Overview
 Vision-language models (VLMs) like CLIP have achieved remarkable success, but adapting them to evolving data streams without **catastrophic forgetting** is a critical challenge. This repository provides a systematic review of research on continual learning for VLMs (VLM-CL).
 
+<p align="center">
+  <img src="./assets/all_challenges_01.png" alt="Challenge of VLM-CL" width="700"/>
+</p>
+
 Our survey identifies three core failure modes in VLM-CL:
 - 🧠 **Cross-Modal Feature Drift**: The degradation of alignment between visual and textual feature spaces during updates.
 - ⚙️ **Shared Module Interference**: Destructive weight updates in shared components like cross-attention layers, which is common in fusion-based models.
 - 📉 **Zero-Shot Capability Erosion**: The loss of generalization to unseen tasks after the model is fine-tuned on specific downstream tasks.
 
+<p align="center">
+  <img src="./assets/figure2_01.png" alt="Summary of VLM-CL" width="700"/>
+</p>
+
 Based on these challenges, we propose a **solution-driven taxonomy** to categorize existing methods, which forms the structure for the paper list below. This repository serves as a community-driven hub for tracking state-of-the-art methods, datasets, and fostering collaboration.
 
+### 🧠 Multi-Modal Replay (MMRE)
+*Strategies that mitigate forgetting by revisiting previous knowledge, either through explicit data storage or implicit generation.*
+
+### ⚙️ Cross-Modal Regularization (CREG)
+*Strategies that preserve alignment by imposing constraints on the model's loss function or update process, often using knowledge distillation or by directly regularizing the feature space.*
+
+### 🛠️ Parameter-Efficient Adaptation (PEA)
+*Strategies that freeze the main pre-trained model and update only a small number of parameters using prompts, adapters, or low-rank updates to isolate task-specific knowledge.*
+
 ---
+
 ## 📄 Papers  
 *Sorted chronologically (newest first).*  
 
@@ -117,6 +138,13 @@ Evaluating VLM-CL requires specialized benchmarks. Our survey categorizes them i
 - **CIL (Class-Incremental Learning)**: New classes are added in sequential tasks.
 - **TIL (Task-Incremental Learning)**: Tasks are distinct, and the task identity is known at inference time.
 - **DIL (Domain-Incremental Learning)**: The data distribution shifts across tasks (e.g., photos to sketches), but the task itself remains the same.
+
+### 📊 Evaluation Metrics
+Regarding the detailed evaluation metrics (such as average accuracy, forgetting rate, zero-shot capability degradation, etc.), we provide a clear and intuitive diagram (as shown below) in the paper for comprehensive explanation. The diagram details how each metric is calculated.
+
+<p align="center">
+  <img src="./assets/Metrics_01.png" alt="Challenge of VLM-CL" width="700"/>
+</p>
 
 ---
 
