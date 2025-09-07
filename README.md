@@ -73,7 +73,6 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (TMLR) Continual Learning in Open-vocabulary Classification with Complementary Memory Systems. [[PDF](https://arxiv.org/pdf/2307.01430)]
 * (ICLR) TiC-CLIP: Continual Training of CLIP Models.[[PDF](https://arxiv.org/pdf/2310.16226)][[CODE](https://github.com/apple/ml-tic-clip)]
 * (arxiv) A Practitioner’s Guide to Continual Multimodal Pretraining. [[PDF](https://arxiv.org/pdf/2408.14471)][[CODE](https://github.com/ExplainableML/fomo_in_flux/)]
-* (CVPR) AttriCLIP: A Non-Incremental Learner for Incremental Knowledge Learning. [[PDF](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_AttriCLIP_A_Non-Incremental_Learner_for_Incremental_Knowledge_Learning_CVPR_2023_paper.pdf)][[CODE](https://gitee.com/mindspore/models/tree/master/research/)]
 * (CVPR) Generative Multi-modal Models are Good Class-Incremental Learners. [[PDF](https://arxiv.org/pdf/2403.18383)][[CODE](https://github.com/DoubleClass/GMM)]
 * (CVPR) Pre-trained Vision and Language Transformers Are Few-Shot Incremental Learners. [[PDF](https://arxiv.org/pdf/2404.02117)][[CODE](https://github.com/KU-VGI/PriViLege)]
 * (arxiv) Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA. [[PDF](https://arxiv.org/pdf/2412.01004)]
