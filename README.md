@@ -161,6 +161,11 @@ We welcome contributions! If you have a paper, dataset, or codebase that should 
 
 ---
 
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=timeline&legend=top-left)](https://www.star-history.com/#YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=timeline&legend=top-left)
+
+---
+
 ## 🛠️ Maintenance
 * **Maintainers**: [Yuyang Liu](https://github.com/YuyangSunshine), Qiuhe Hong, [Linlan Huang](https://github.com/linlany), [Alexandra Gomez-Villa](https://github.com/AlexAndorra), and [Dipam Goswami](https://github.com/dipamgoswami).
 * **Contact**: sunshineliuyuyang@gmail.com
