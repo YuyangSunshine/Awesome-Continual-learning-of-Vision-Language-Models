@@ -22,6 +22,8 @@ This repository is the official resource hub for our survey paper, **"Continual 
   journal={arXiv preprint arXiv:2508.04227},
   year={2025}
 }
+```
+
 
 ---
 
