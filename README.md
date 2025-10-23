@@ -1,4 +1,8 @@
-# Awesome Continual Learning for Vision-Language Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Continual Learning for Vision-Language Models 
+
+[![ArXiv](https://img.shields.io/badge/ArXiv-paper-B31B1B.svg?logo=arXiv&logoColor=Red)](https://arxiv.org/pdf/2508.04227v1.pdf)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 > A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs), accompanying our survey paper.
 > *Last updated: 2025-08-12*
 
@@ -18,8 +22,6 @@ This repository is the official resource hub for our survey paper, **"Continual 
   journal={arXiv preprint arXiv:2508.04227},
   year={2025}
 }
-```
-[[Paper PDF](https://arxiv.org/pdf/2508.04227v1.pdf)]
 
 ---
 
