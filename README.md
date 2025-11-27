@@ -164,9 +164,10 @@ We welcome contributions! If you have a paper, dataset, or codebase that should 
 - [Awesome Vision-Language Models](https://github.com/jingyi0000/VLM_survey)  
 
 ---
+
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=timeline&logscale&legend=top-left)](https://www.star-history.com/#YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=timeline&logscale&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=date&logscale&legend=top-left)](https://www.star-history.com/#YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=date&logscale&legend=top-left)
 
 ---
 
