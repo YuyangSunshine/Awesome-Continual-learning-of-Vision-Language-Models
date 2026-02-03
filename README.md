@@ -61,6 +61,7 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 
 ### 2025
 * (ACL) HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model. [[PDF](https://arxiv.org/pdf/2503.12941)][[CODE](https://github.com/Ghy0501/HiDe-LLaVA)]
+* (ICCV) External Knowledge Injection for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2503.08510)][[CODE](https://github.com/LAMDA-CL/ICCV25-ENGINE)]
 * (ICCV) Mind the Gap: Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning. [[PDF](https://arxiv.org/pdf/2507.09118)][[CODE](https://github.com/linlany/MindtheGap)]
 * (ICML) LADA: Scalable Label-Specific CLIP Adapter for Continual Learning. [[PDF](https://arxiv.org/abs/2505.23271)][[CODE](https://github.com/MaolinLuo/LADA)]
 * (ICLR) C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[PDF](https://openreview.net/pdf?id=sb7qHFYwBc)][[CODE](https://github.com/SmallPigPeppa/C-CLIP)]
