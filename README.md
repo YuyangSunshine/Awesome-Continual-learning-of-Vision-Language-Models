@@ -59,7 +59,7 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 ## 📄 Papers  
 *Sorted chronologically (newest first).*  
 
-### 2025
+### 2026
 * (arXiv) Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers. [[PDF](https://arxiv.org/pdf/2603.07670)]
 * (arXiv) DeLo: Dual Decomposed Low-Rank Experts Collaboration for Continual Missing Modality Learning. [[PDF](https://arxiv.org/pdf/2603.01632)][[CODE]( https://github.com/Xiwei-web/DeLo)]
 * (arXiv) Continual-NExT: A Unified Comprehension And Generation Continual Learning Framework. [[PDF](https://arxiv.org/pdf/2602.18055)]
