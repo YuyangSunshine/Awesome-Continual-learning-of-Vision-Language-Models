@@ -59,17 +59,6 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 ## 📄 Papers  
 *Sorted chronologically (newest first).*  
 
-### 2026
-* (arXiv) Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers. [[PDF](https://arxiv.org/pdf/2603.07670)]
-* (arXiv) DeLo: Dual Decomposed Low-Rank Experts Collaboration for Continual Missing Modality Learning. [[PDF](https://arxiv.org/pdf/2603.01632)][[CODE]( https://github.com/Xiwei-web/DeLo)]
-* (arXiv) Continual-NExT: A Unified Comprehension And Generation Continual Learning Framework. [[PDF](https://arxiv.org/pdf/2602.18055)]
-* (arXiv) Prompt Reinjection: Alleviating Prompt Forgetting in Multimodal Diffusion Transformers. [[PDF](https://arxiv.org/pdf/2602.06886)]
-* (arXiv) StructAlign: Structured Cross-Modal Alignment for Continual Text-to-Video Retrieval. [[PDF](https://arxiv.org/pdf/2601.20597)]
-* (arXiv) Model-Dowser: Data-Free Importance Probing to Mitigate Catastrophic Forgetting in Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2602.04509)]
-* (arXiv) HyperTokens: Controlling Token Dynamics for Continual Video-Language Understanding. [[PDF](https://arxiv.org/pdf/2603.06662)]
-* (arXiv) CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning. [[PDF](https://arxiv.org/pdf/2603.02951)]
-* (arXiv) Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline. [[PDF](https://arxiv.org/pdf/2603.05484)]
-* (arXiv) Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning. [[PDF](https://arxiv.org/pdf/2603.03818)]
 
 
 ### 2025
