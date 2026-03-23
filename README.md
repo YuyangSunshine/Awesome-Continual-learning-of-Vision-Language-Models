@@ -170,7 +170,13 @@ We welcome contributions! If you have a paper, dataset, or codebase that should 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/image?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=date&logscale&legend=top-left)](https://www.star-history.com/?repos=YuyangSunshine%2FAwesome-Continual-learning-of-Vision-Language-Models&type=date&logscale=&legend=top-left)
+<a href="https://www.star-history.com/?repos=YuyangSunshine%2FAwesome-Continual-learning-of-Vision-Language-Models&type=date&logscale=&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=date&theme=dark&logscale&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=date&logscale&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=YuyangSunshine/Awesome-Continual-learning-of-Vision-Language-Models&type=date&logscale&legend=top-left" />
+ </picture>
+</a>
 
 ---
 
