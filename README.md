@@ -79,12 +79,12 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (arxiv) LVP-CLIP: Revisiting CLIP for Continual Learning with Label Vector Pool. [[PDF](https://arxiv.org/pdf/2412.05840)]
 * (arxiv) MLLM-CL: Continual Learning for Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2506.05453)][[CODE](https://github.com/bjzhb666/MLLM-CL?tab=readme-ov-file)]
 * (arXiv) GNSP: Gradient Null Space Projection for Preserving Cross-Modal Alignment in VLMs Continual Learning. [[PDF](https://arxiv.org/pdf/2507.19839.pdf)][[CODE](https://github.com/Ppp-Ttt/GNSP)]
-* (Arxiv) Hierarchical Representation Matching for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2509.22645)]
-* (Arxiv) Hierarchical Semantic Tree Anchoring for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.15633)]
-* (Arxiv) BOFA: Bridge-Layer Orthogonal Low-Rank Fusion for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.11421)]
-* (Arxiv) Preserving Cross-Modal Consistency for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.10974)]
-* (Arxiv) Representation Calibration and Uncertainty Guidance for Class-Incremental Learning based on Vision Language Model. [[PDF](https://arxiv.org/pdf/2512.09441)]
-* (Arxiv) Prompt-Based Continual Compositional Zero-Shot Learning. [[PDF](https://arxiv.org/pdf/2512.09172)]
+* (arxiv) Hierarchical Representation Matching for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2509.22645)]
+* (arxiv) Hierarchical Semantic Tree Anchoring for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.15633)]
+* (arxiv) BOFA: Bridge-Layer Orthogonal Low-Rank Fusion for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.11421)]
+* (arxiv) Preserving Cross-Modal Consistency for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.10974)]
+* (arxiv) Representation Calibration and Uncertainty Guidance for Class-Incremental Learning based on Vision Language Model. [[PDF](https://arxiv.org/pdf/2512.09441)]
+* (arxiv) Prompt-Based Continual Compositional Zero-Shot Learning. [[PDF](https://arxiv.org/pdf/2512.09172)]
 
 
 ### 2024
