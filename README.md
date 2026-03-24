@@ -59,12 +59,16 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 ## 📄 Papers  
 *Sorted chronologically (newest first).*  
 
-
+### 2026
+* (AAAI) Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning. [[PDF](https://arxiv.org/pdf/2508.01579)][[CODE](https://github.com/HHHLF/SECA_master)]
+* (ICLR) Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models. [[PDF](https://arxiv.org/pdf/2510.21175)]
+* (CVPR) Forging a Dynamic Memory: Retrieval-Guided Continual Learning for Generalist Medical Foundation Models. [[PDF](https://arxiv.org/pdf/2512.09172)][[CODE](https://github.com/CZZZZZZZZZZZZZZZZZ/PRIMED)]
 
 ### 2025
 * (ACL) HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model. [[PDF](https://arxiv.org/pdf/2503.12941)][[CODE](https://github.com/Ghy0501/HiDe-LLaVA)]
 * (ICCV) External Knowledge Injection for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2503.08510)][[CODE](https://github.com/LAMDA-CL/ICCV25-ENGINE)]
-* (ICCV) Mind the Gap: Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning. [[PDF](https://arxiv.org/pdf/2507.09118)][[CODE](https://github.com/linlany/MindtheGap)]
+* (ICCV) Mind the Gap: Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning. [[PDF](https://arxiv.org/pdf/2507.09118)][[CODE](https://github.com/RL-VIG/DMNSP)]
+* (ICCV) DMNSP: Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning. [[PDF](https://openaccess.thecvf.com/content/ICCV2025/html/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.html)][[CODE](https://github.com/RL-VIG/DMNSP)]
 * (ICML) LADA: Scalable Label-Specific CLIP Adapter for Continual Learning. [[PDF](https://arxiv.org/abs/2505.23271)][[CODE](https://github.com/MaolinLuo/LADA)]
 * (ICLR) C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[PDF](https://openreview.net/pdf?id=sb7qHFYwBc)][[CODE](https://github.com/SmallPigPeppa/C-CLIP)]
 * (CVPR) Synthetic Data is an Elegant GIFT for Continual Vision-Language Models. [[PDF](https://arxiv.org/pdf/2503.04229)][[CODE](https://github.com/Luo-Jiaming/GIFT_CL)]
@@ -75,6 +79,13 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (arxiv) LVP-CLIP: Revisiting CLIP for Continual Learning with Label Vector Pool. [[PDF](https://arxiv.org/pdf/2412.05840)]
 * (arxiv) MLLM-CL: Continual Learning for Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2506.05453)][[CODE](https://github.com/bjzhb666/MLLM-CL?tab=readme-ov-file)]
 * (arXiv) GNSP: Gradient Null Space Projection for Preserving Cross-Modal Alignment in VLMs Continual Learning. [[PDF](https://arxiv.org/pdf/2507.19839.pdf)][[CODE](https://github.com/Ppp-Ttt/GNSP)]
+* (Arxiv) Hierarchical Representation Matching for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2509.22645)]
+* (Arxiv) Hierarchical Semantic Tree Anchoring for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.15633)]
+* (Arxiv) BOFA: Bridge-Layer Orthogonal Low-Rank Fusion for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.11421)]
+* (Arxiv) Preserving Cross-Modal Consistency for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.10974)]
+* (Arxiv) Representation Calibration and Uncertainty Guidance for Class-Incremental Learning based on Vision Language Model. [[PDF](https://arxiv.org/pdf/2512.09441)]
+* (Arxiv) Prompt-Based Continual Compositional Zero-Shot Learning. [[PDF](https://arxiv.org/pdf/2512.09172)]
+
 
 ### 2024
 * (TMLR) Continual Learning in Open-vocabulary Classification with Complementary Memory Systems. [[PDF](https://arxiv.org/pdf/2307.01430)]
