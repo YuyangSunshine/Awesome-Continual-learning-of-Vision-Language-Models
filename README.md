@@ -4,7 +4,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs), accompanying our survey paper.
-> *Last updated: 2025-08-12*
+> *Last updated: 2026-04-09*
 
 <p align="center">
   <img src="./assets/Methods_Overview_01.png" alt="Overview of VLM-CL" width="500"/>
