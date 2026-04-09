@@ -12,6 +12,11 @@
 
 ---
 
+## 🔥 Latest News
+- **[2025.08]** Our survey paper, **“Continual Learning for VLMs: A Survey and Taxonomy Beyond Forgetting”**, is now available on **arXiv**.
+- **[2026.03]** We have updated the repository with a new collection of recent papers and resources to reflect the latest advances in **VLM continual learning**.
+- **[Ongoing]** This repository is under active maintenance and will be continuously updated with newly released papers, code, and benchmarks from the community.
+
 ## 📣 Citing Our Work
 This repository is the official resource hub for our survey paper, **"Continual Learning for VLMs: A Survey and Taxonomy Beyond Forgetting"**. If you find this repository or our survey useful for your research, please consider citing our work:
 
