@@ -69,10 +69,13 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (AAAI) Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning. [[PDF](https://arxiv.org/pdf/2508.01579)][[CODE](https://github.com/HHHLF/SECA_master)]
 * (AAAI) Decomposing and Composing: Towards Efficient Vision-Language Continual Learning via Rank-1 Expert Pool in a Single LoRA. [[PDF](https://arxiv.org/pdf/2601.22828)][[CODE](https://github.com/Fazhan-cs/DAC)]
 * (ICLR) Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models. [[PDF](https://arxiv.org/pdf/2510.21175)]
+* (ICLR) Fine-tuning MLLMs Without Forgetting Is Easier Than You Think. [[PDF](https://arxiv.org/pdf/2603.14493)]
 * (ICLR) Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA. [[PDF](https://arxiv.org/pdf/2412.01004)][[CODE](https://github.com/jeff024/codyra)]
 * (CVPR) Forging a Dynamic Memory: Retrieval-Guided Continual Learning for Generalist Medical Foundation Models. [[PDF](https://arxiv.org/pdf/2512.09172)][[CODE](https://github.com/CZZZZZZZZZZZZZZZZZ/PRIMED)]
+* (CVPR) CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning. [[PDF](https://arxiv.org/pdf/2603.02951)]
 * (arxiv) Neural Sentinel: Unified Vision Language Model (VLM) for License Plate Recognition with Human-in-the-Loop Continual Learning. [[PDF](https://arxiv.org/pdf/2602.07051)]
 * (arxiv) Reinforced Curriculum Pre-Alignment for Domain-Adaptive VLMs. [[PDF](https://arxiv.org/pdf/2602.10740)]
+* (arxiv) Continual Learning with Vision-Language Models via Semantic-Geometry Preservation. [[PDF](https://arxiv.org/pdf/2603.12055)]
 
 
 ### 2025
@@ -86,6 +89,9 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (CVPR) Language Guided Concept Bottleneck Models for Interpretable Continual Learning. [[PDF](https://arxiv.org/pdf/2503.23283)][[CODE](https://github.com/FisherCats/CLG-CBM)]
 * (TPAMI) Learning without Forgetting for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2305.19270)][[CODE](https://github.com/zhoudw-zdw/PROOF/)]
 * (TMM) Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model. [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10897910)][[CODE](https://openi.pcl.ac.cn/OpenMedIA/CIL_Adapterd_VLM)]
+* (ECML-PKDD) ChordPrompt: Orchestrating Cross-Modal Prompt Synergy for Multi-Domain Incremental Learning in CLIP. [[PDF](https://arxiv.org/pdf/2506.19608)]
+* (TMLR) Continual Learning on CLIP via Incremental Prompt Tuning with Intrinsic Textual Anchors. [[PDF](https://arxiv.org/pdf/2505.20680)][[CODE](https://github.com/jeff024/tppt)]
+* (TMLR) Efficient Few-Shot Continual Learning in Vision-Language Models. [[PDF](https://arxiv.org/pdf/2502.04098)]
 * (arXiv) No Images, No Problem: Retaining Knowledge in Continual VQA with Questions-Only Memory. [[PDF](https://arxiv.org/pdf/2502.04469.pdf)][[CODE](https://github.com/IemProg/QUAD)]
 * (arxiv) LVP-CLIP: Revisiting CLIP for Continual Learning with Label Vector Pool. [[PDF](https://arxiv.org/pdf/2412.05840)]
 * (arxiv) MLLM-CL: Continual Learning for Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2506.05453)][[CODE](https://github.com/bjzhb666/MLLM-CL?tab=readme-ov-file)]
@@ -96,6 +102,8 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (arxiv) Preserving Cross-Modal Consistency for CLIP-based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2511.10974)]
 * (arxiv) Representation Calibration and Uncertainty Guidance for Class-Incremental Learning based on Vision Language Model. [[PDF](https://arxiv.org/pdf/2512.09441)]
 * (arxiv) Prompt-Based Continual Compositional Zero-Shot Learning. [[PDF](https://arxiv.org/pdf/2512.09172)]
+* (arxiv) Beyond CLIP Generalization: Against Forward&Backward Forgetting Adapter for Continual Learning of Vision-Language Models. [[PDF](https://arxiv.org/pdf/2505.07690)]
+* (arxiv) CalFuse: Multi-Modal Continual Learning via Feature Calibration and Parameter Fusion. [[PDF](https://arxiv.org/pdf/2503.18672)]
 
 
 ### 2024
