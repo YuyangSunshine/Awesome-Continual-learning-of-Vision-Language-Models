@@ -61,8 +61,13 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 
 ### 2026
 * (AAAI) Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning. [[PDF](https://arxiv.org/pdf/2508.01579)][[CODE](https://github.com/HHHLF/SECA_master)]
+* (AAAI) Decomposing and Composing: Towards Efficient Vision-Language Continual Learning via Rank-1 Expert Pool in a Single LoRA. [[PDF](https://arxiv.org/pdf/2601.22828)][[CODE](https://github.com/Fazhan-cs/DAC)]
 * (ICLR) Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models. [[PDF](https://arxiv.org/pdf/2510.21175)]
+* (ICLR) Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA. [[PDF](https://arxiv.org/pdf/2412.01004)][[CODE](https://github.com/jeff024/codyra)]
 * (CVPR) Forging a Dynamic Memory: Retrieval-Guided Continual Learning for Generalist Medical Foundation Models. [[PDF](https://arxiv.org/pdf/2512.09172)][[CODE](https://github.com/CZZZZZZZZZZZZZZZZZ/PRIMED)]
+* (arxiv) Neural Sentinel: Unified Vision Language Model (VLM) for License Plate Recognition with Human-in-the-Loop Continual Learning. [[PDF](https://arxiv.org/pdf/2602.07051)]
+* (arxiv) Reinforced Curriculum Pre-Alignment for Domain-Adaptive VLMs. [[PDF](https://arxiv.org/pdf/2602.10740)]
+
 
 ### 2025
 * (ACL) HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model. [[PDF](https://arxiv.org/pdf/2503.12941)][[CODE](https://github.com/Ghy0501/HiDe-LLaVA)]
@@ -93,7 +98,6 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (arxiv) A Practitioner’s Guide to Continual Multimodal Pretraining. [[PDF](https://arxiv.org/pdf/2408.14471)][[CODE](https://github.com/ExplainableML/fomo_in_flux/)]
 * (CVPR) Generative Multi-modal Models are Good Class-Incremental Learners. [[PDF](https://arxiv.org/pdf/2403.18383)][[CODE](https://github.com/DoubleClass/GMM)]
 * (CVPR) Pre-trained Vision and Language Transformers Are Few-Shot Incremental Learners. [[PDF](https://arxiv.org/pdf/2404.02117)][[CODE](https://github.com/KU-VGI/PriViLege)]
-* (arxiv) Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA. [[PDF](https://arxiv.org/pdf/2412.01004)]
 * (arxiv) Boosting Open-Domain Continual Learning via Leveraging Intra-domain Category-aware Prototype. [[PDF](https://arxiv.org/pdf/2408.09984)]
 * (AAAI) Embracing Language Inclusivity and Diversity in CLIP through Continual Language Learning.[[PDF](https://arxiv.org/pdf/2401.17186)][[CODE](https://github.com/yangbang18/CLFM)]
 * (AAAI) Continual Vision-Language Retrieval via Dynamic Knowledge Rectification. [[PDF](https://ojs.aaai.org/index.php/AAAI/article/view/29054)]
