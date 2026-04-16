@@ -4,7 +4,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of papers, codebases, and datasets for continual learning in vision-language models (VLMs), accompanying our survey paper.
-> *Last updated: 2026-04-09*
+> *Last updated: 2026-04-16*
 
 <p align="center">
   <img src="./assets/Methods_Overview_01.png" alt="Overview of VLM-CL" width="500"/>
@@ -74,14 +74,18 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (ICLR) Fine-tuning MLLMs Without Forgetting Is Easier Than You Think. [[PDF](https://arxiv.org/pdf/2603.14493)]
 * (ICLR) Adaptive Rank, Reduced Forgetting: Knowledge Retention in Continual Learning Vision-Language Models with Dynamic Rank-Selective LoRA. [[PDF](https://arxiv.org/pdf/2412.01004)][[CODE](https://github.com/jeff024/codyra)]
 * (CVPR) Forging a Dynamic Memory: Retrieval-Guided Continual Learning for Generalist Medical Foundation Models. [[PDF](https://arxiv.org/pdf/2512.09172)][[CODE](https://github.com/CZZZZZZZZZZZZZZZZZ/PRIMED)]
+* (CVPR) ϕ-DPO: Fairness Direct Preference Optimization Approach to Continual Learning in Large Multimodal Models. [[PDF](https://arxiv.org/pdf/2602.22601)][[CODE](https://github.com/uark-cviu/FaiDPO)]
 * (CVPR) CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning. [[PDF](https://arxiv.org/pdf/2603.02951)]
 * (arxiv) Neural Sentinel: Unified Vision Language Model (VLM) for License Plate Recognition with Human-in-the-Loop Continual Learning. [[PDF](https://arxiv.org/pdf/2602.07051)]
 * (arxiv) Reinforced Curriculum Pre-Alignment for Domain-Adaptive VLMs. [[PDF](https://arxiv.org/pdf/2602.10740)]
 * (arxiv) Continual Learning with Vision-Language Models via Semantic-Geometry Preservation. [[PDF](https://arxiv.org/pdf/2603.12055)]
+* (arxiv) Continual Vision-Language Learning for Remote Sensing: Benchmarking and Analysis. [[PDF](https://arxiv.org/pdf/2604.00820)][[CODE](https://github.com/XingxingW/CLeaRS-Preview)]
+
 
 
 ### 2025
 * (ACL) HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model. [[PDF](https://arxiv.org/pdf/2503.12941)][[CODE](https://github.com/Ghy0501/HiDe-LLaVA)]
+* (ACL) Enhancing Multimodal Continual Instruction Tuning with BranchLoRA. [[PDF](https://arxiv.org/pdf/2506.02041)][[CODE](https://github.com/BladeDancer957/BranchLoRA)]
 * (ICCV) External Knowledge Injection for CLIP-Based Class-Incremental Learning. [[PDF](https://arxiv.org/pdf/2503.08510)][[CODE](https://github.com/LAMDA-CL/ICCV25-ENGINE)]
 * (ICCV) Mind the Gap: Preserving and Compensating for the Modality Gap in CLIP-Based Continual Learning. [[PDF](https://arxiv.org/pdf/2507.09118)][[CODE](https://github.com/RL-VIG/DMNSP)]
 * (ICCV) DMNSP: Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning. [[PDF](https://openaccess.thecvf.com/content/ICCV2025/html/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.html)][[CODE](https://github.com/RL-VIG/DMNSP)]
@@ -92,12 +96,15 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (ICLR) C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[PDF](https://openreview.net/pdf?id=sb7qHFYwBc)][[CODE](https://github.com/SmallPigPeppa/C-CLIP)]
 * (CVPR) Synthetic Data is an Elegant GIFT for Continual Vision-Language Models. [[PDF](https://arxiv.org/pdf/2503.04229)][[CODE](https://github.com/Luo-Jiaming/GIFT_CL)]
 * (CVPR) Language Guided Concept Bottleneck Models for Interpretable Continual Learning. [[PDF](https://arxiv.org/pdf/2503.23283)][[CODE](https://github.com/FisherCats/CLG-CBM)]
+* (CVPR) CL-MoE: Enhancing Multimodal Large Language Model with Dual Momentum Mixture-of-Experts for Continual Visual Question Answering. [[PDF](https://arxiv.org/pdf/2503.00413)][[CODE](https://github.com/ECNU-ICALK/CL-MoE)]
 * (EMNLP) ModalPrompt: Towards Efficient Multimodal Continual Instruction Tuning with Dual-Modality Guided Prompt. [[PDF](https://arxiv.org/pdf/2410.05849)][[CODE](https://github.com/AuroraZengfh/ModalPrompt)]
 * (TPAMI) Learning without Forgetting for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2305.19270)][[CODE](https://github.com/zhoudw-zdw/PROOF/)]
 * (TMM) Visual Class Incremental Learning with Textual Priors Guidance based on an Adapted Vision-Language Model. [[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10897910)][[CODE](https://openi.pcl.ac.cn/OpenMedIA/CIL_Adapterd_VLM)]
 * (ECML-PKDD) ChordPrompt: Orchestrating Cross-Modal Prompt Synergy for Multi-Domain Incremental Learning in CLIP. [[PDF](https://arxiv.org/pdf/2506.19608)]
 * (TMLR) Continual Learning on CLIP via Incremental Prompt Tuning with Intrinsic Textual Anchors. [[PDF](https://arxiv.org/pdf/2505.20680)][[CODE](https://github.com/jeff024/tppt)]
 * (TMLR) Efficient Few-Shot Continual Learning in Vision-Language Models. [[PDF](https://arxiv.org/pdf/2502.04098)]
+* (EMNLP Findings) Mitigating Visual Knowledge Forgetting in MLLM Instruction-tuning via Modality-decoupled Gradient Descent. [[PDF](https://arxiv.org/pdf/2502.11740)]
+* (ACL Findings) Progressive LoRA for Multimodal Continual Instruction Tuning. [[PDF](https://aclanthology.org/2025.findings-acl.143/)][[CODE](https://github.com/ku-nlp/ProgLoRA)]
 * (arXiv) No Images, No Problem: Retaining Knowledge in Continual VQA with Questions-Only Memory. [[PDF](https://arxiv.org/pdf/2502.04469.pdf)][[CODE](https://github.com/IemProg/QUAD)]
 * (arxiv) LVP-CLIP: Revisiting CLIP for Continual Learning with Label Vector Pool. [[PDF](https://arxiv.org/pdf/2412.05840)]
 * (arxiv) MLLM-CL: Continual Learning for Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2506.05453)][[CODE](https://github.com/bjzhb666/MLLM-CL?tab=readme-ov-file)]
@@ -130,10 +137,12 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 * (ECCV) Select and Distill: Selective Dual-Teacher Knowledge Transfer for Continual Learning on Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.09296)]
 * (ECCV) Class-Incremental Learning with CLIP: Adaptive Representation Adjustment and Parameter Fusion. [[PDF](https://arxiv.org/pdf/2407.14143)] [[CODE](https://github.com/linlany/RAPF)]
 * (NeurIPS) Advancing Cross-domain Discriminability in Continual Learning of Vision-Language Models (RAIL). [[PDF](https://arxiv.org/pdf/2406.18868)][[CODE](https://github.com/linghan1997/Regression-based-Analytic-Incremental-Learning)]
-* (ACM MM) Low-rank Prompt Interaction for Continual Vision-language Retrieval. [[PDF](https://arxiv.org/pdf/2501.14369)][[CODE](https://github.com/Kelvin-ywc/LPI)]
-* (IJCAI) Continual Multimodal Knowledge Graph Construction. [[PDF](https://arxiv.org/pdf/2305.08698)] [[CODE](https://github.com/zjunlp/ContinueMKGC)]
-* (arXiv) CoLeCLIP: Open-Domain Continual Learning via Joint Task Prompt and Vocabulary Learning. [[PDF](https://arxiv.org/pdf/2403.10245)]
 * (NeurIPS) CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models. [[PDF](https://arxiv.org/pdf/2403.19137.pdf)][[CODE](https://github.com/srvCodes/clap4clip)]
+* (ACM MM) Low-rank Prompt Interaction for Continual Vision-language Retrieval. [[PDF](https://arxiv.org/pdf/2501.14369)][[CODE](https://github.com/Kelvin-ywc/LPI)]
+* (ACM MM) Calibrating Prompt from History for Continual Vision-Language Retrieval and Grounding. [[PDF](https://dl.acm.org/doi/10.1145/3664647.3681387)]
+* (IJCAI) Continual Multimodal Knowledge Graph Construction. [[PDF](https://arxiv.org/pdf/2305.08698)] [[CODE](https://github.com/zjunlp/ContinueMKGC)]
+* (TCSVT) Continual Learning of Image Classes with Language Guidance from a Vision-Language Model. [[PDF](https://ieeexplore.ieee.org/document/10644076/)][[CODE](https://github.com/Fatflower/CIL_LG_VLM)]
+* (arXiv) CoLeCLIP: Open-Domain Continual Learning via Joint Task Prompt and Vocabulary Learning. [[PDF](https://arxiv.org/pdf/2403.10245)]
 * (arXiv) LW2G: Learning Whether to Grow for Prompt-based Continual Learning. [[PDF](https://arxiv.org/pdf/2409.18860.pdf)][[CODE](https://github.com/raian08/lw2g)]
 * (arXiv) ATLAS: Adapter-Based Multi-Modal Continual Learning with a Two-Stage Learning Strategy. [[PDF](https://arxiv.org/pdf/2410.10923.pdf)][[CODE](https://github.com/lihong2303/ATLAS)]
 * (arxiv) Exploiting the Semantic Knowledge of Pre-trained Text-Encoders for Continual Learning. [[PDF](https://arxiv.org/pdf/2408.01076)]
@@ -174,6 +183,7 @@ Evaluating VLM-CL requires specialized benchmarks. Our survey categorizes them i
 | **DomainNet** | Classification         | DIL          | Image               | 6 Domains              | 6       | 600K Images                  | [[Link](http://ai.bu.edu/DomainNet/)]                        |
 | **CIFAR100-CIL** | Classification         | CIL          | Image               | Natural Images         | 10      | 60K Images                   | [[Link](https://www.cs.toronto.edu/~kriz/cifar.html)]         |
 | **CLEAR** | Classification         | CIL/DIL      | Image               | Temporal Natural Images| 10      | 4.3M - 18.6M Images          | [[Homepage](https://clear-benchmark.github.io/)]             |
+| **CLeaRS** | Class./VQA/Ground./Cap. | TIL | Image+Text | Remote Sensing | 10 | 207K+ Pairs | [[GitHub](https://github.com/XingxingW/CLeaRS-Preview)] |
 
 #### Notes on CL Scenarios:
 - **CIL (Class-Incremental Learning)**: New classes are added in sequential tasks.
