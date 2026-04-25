@@ -66,6 +66,8 @@ Based on these challenges, we propose a **solution-driven taxonomy** to categori
 *Sorted chronologically (newest first).*  
 
 ### 2026
+* (AAAI) LoRA in LoRA: Towards Parameter-Efficient Architecture
+Expansion for Continual Visual Instruction Tuning. [[PDF](https://arxiv.org/pdf/2508.06202)]
 * (AAAI) Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning. [[PDF](https://arxiv.org/pdf/2508.01579)][[CODE](https://github.com/HHHLF/SECA_master)]
 * (AAAI) Decomposing and Composing: Towards Efficient Vision-Language Continual Learning via Rank-1 Expert Pool in a Single LoRA. [[PDF](https://arxiv.org/pdf/2601.22828)][[CODE](https://github.com/Fazhan-cs/DAC)]
 * (AAAI) MacVQA: Adaptive Memory Allocation and Global Noise Filtering for Continual Visual Question Answering. [[PDF](https://arxiv.org/pdf/2601.01926)][[CODE](https://github.com/HubuKG/MacVQA)]
