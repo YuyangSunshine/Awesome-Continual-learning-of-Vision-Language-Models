@@ -119,6 +119,7 @@ Expansion for Continual Visual Instruction Tuning. [[PDF](https://arxiv.org/pdf/
 * (arxiv) Prompt-Based Continual Compositional Zero-Shot Learning. [[PDF](https://arxiv.org/pdf/2512.09172)]
 * (arxiv) Beyond CLIP Generalization: Against Forward&Backward Forgetting Adapter for Continual Learning of Vision-Language Models. [[PDF](https://arxiv.org/pdf/2505.07690)]
 * (arxiv) CalFuse: Multi-Modal Continual Learning via Feature Calibration and Parameter Fusion. [[PDF](https://arxiv.org/pdf/2503.18672)]
+* (arxiv) Routing-Based Continual Learning for Multimodal Large Language Models. [[PDF](https://arxiv.org/pdf/2511.01831v3)]
 
 
 ### 2024
