@@ -41,7 +41,7 @@ If you find this repository or our survey useful for your research, please consi
   journal={arXiv preprint arXiv:2508.04227},
   year={2026}
 }
-
+```
 
 ---
 
@@ -189,26 +189,60 @@ Expansion for Continual Visual Instruction Tuning. [[PDF](https://arxiv.org/pdf/
 ---
 
 ## 🗂️ Datasets & Benchmarks
-Evaluating VLM-CL requires specialized benchmarks. Our survey categorizes them into three tiers: **Repurposed Unimodal**, **Adapted Multimodal**, and **Native VLM-CL** benchmarks. The table below summarizes key datasets used in the literature.
 
-| Dataset          | Task Type              | CL Scenario  | Modality            | Domain                 | # Tasks | Scale (Approx.)              | Link/Source                                                  |
-| ---------------- | ---------------------- | ------------ | ------------------- | ---------------------- | ------- | ---------------------------- | ------------------------------------------------------------ |
-| **Climb** | VQA, Retrieval         | TIL          | Image+Text          | General                | 4       | 1.1M QA/Pairs                | [[GitHub](https://github.com/GLAMOR-USC/CLiMB)]              |
-| **VQACL** | VQA                    | TIL/DIL      | Image+Text          | Scenes & Functions     | 2+      | 100K QA                      | [[GitHub](https://github.com/zhangxi1997/VQACL)]             |
-| **COCO-CL** | Detection, Seg, Ret.   | CIL          | Image+Annotations   | Natural Scenes         | 80      | 200K+ Instances              | [[Paper](https://arxiv.org/abs/2003.04668)]                   |
-| **TiC-Benchmark**| Retrieval, Class.      | Time-IL      | Image+Text          | Web Crawled            | 9-17    | 12M - 12.7B Pairs            | [[Paper](https://arxiv.org/abs/2310.16226)]                  |
-| **MTIL** | Classification         | TIL/CIL      | Image               | 11 Natural Image Sets  | 11      | 438K Images                  | [[Paper](https://arxiv.org/abs/2303.06628)]                  |
-| **MDL-VQA** | VQA                    | DIL          | Image+Text          | 5 Visual Domains       | 5       | 150K QA                      | [[Paper](https://dl.acm.org/doi/10.1145/3581783.3612121)]    |
-| **ImageNet-CIL** | Classification         | CIL          | Image               | Natural Images         | 10-100  | 1.3M Images                  | [[Link](http://www.image-net.org/)]                          |
-| **DomainNet** | Classification         | DIL          | Image               | 6 Domains              | 6       | 600K Images                  | [[Link](http://ai.bu.edu/DomainNet/)]                        |
-| **CIFAR100-CIL** | Classification         | CIL          | Image               | Natural Images         | 10      | 60K Images                   | [[Link](https://www.cs.toronto.edu/~kriz/cifar.html)]         |
-| **CLEAR** | Classification         | CIL/DIL      | Image               | Temporal Natural Images| 10      | 4.3M - 18.6M Images          | [[Homepage](https://clear-benchmark.github.io/)]             |
-| **CLeaRS** | Class./VQA/Ground./Cap. | TIL | Image+Text | Remote Sensing | 10 | 207K+ Pairs | [[GitHub](https://github.com/XingxingW/CLeaRS-Preview)] |
+Evaluating VLM-CL requires specialized benchmarks. Our survey categorizes them into three evolutionary tiers:
 
-#### Notes on CL Scenarios:
-- **CIL (Class-Incremental Learning)**: New classes are added in sequential tasks.
-- **TIL (Task-Incremental Learning)**: Tasks are distinct, and the task identity is known at inference time.
-- **DIL (Domain-Incremental Learning)**: The data distribution shifts across tasks (e.g., photos to sketches), but the task itself remains the same.
+### 1. Repurposed Unimodal Benchmarks
+
+*Adapted CV datasets offering scalability but limited cross-modal insights.*
+
+| Dataset | Task Type | Modality | # Tasks | Size |
+| --- | --- | --- | --- | --- |
+| **ImageNet-100/1K** | Classification | Image | 10-100 | 130K-1.3M |
+| **DomainNet** | Classification | Image | 6 | 600K |
+| **CLEAR-10/100** | Classification | Image | 10 | 4.3M-18.6M |
+
+### 2. Adapted Multimodal Benchmarks
+
+*Reconfigured existing datasets retaining cross-modal interactions.*
+
+| Dataset | Task Type | Modality | # Tasks | Size |
+| --- | --- | --- | --- | --- |
+| **MDL-VQA** | VQA | Image+Text | 5 | 150K QA |
+| **P9D** | Retrieval | Image+Text | N/A | 1M+ |
+| **Flickr30K** | Retrieval | Image+Annot. | N/A | 30K |
+
+### 3. VLM/MLLM-Specific Benchmarks
+
+*Protocols designed explicitly for cross-modal forgetting, zero-shot decay, and instruction tuning.*
+
+| Dataset | Task Type | Modality | # Tasks | Size | Link |
+| --- | --- | --- | --- | --- | --- |
+| **VQACL** | VQA | Image+Text | 2+ | 100K | [[GitHub](https://github.com/zhangxi1997/VQACL)] |
+| **TiC-Benchmark** | Ret./Class. | Image+Text | 9-17 | 12M+ | [[Paper](https://arxiv.org/abs/2310.16226)] |
+| **MTIL** | Classification | Image | 11 | 438K | [[Paper](https://arxiv.org/abs/2303.06628)] |
+| **MLLM-CTBench** | VQA | Image+Text | N/A | 70K | N/A |
+| **CLeaRS** | VQA/Cap. | Image+Text | 10 | 207K+ | [[GitHub](https://www.google.com/search?q=https://github.com/XingxingW/CLeaRS-Preview)] |
+
+---
+
+## 🚀 Future Directions
+
+Based on the gaps and trends identified in our survey, we propose several key directions for future research:
+
+* 📊 **Unified and Holistic Benchmarking**: Moving beyond simple classification accuracy to incorporate compositional zero-shot evaluation and temporal, web-scale data streams.
+
+
+* 💬 **Continual Learning for Generative and Interactive Tasks**: Enabling multimodal chatbots and agents to continually learn from human feedback and long-term memory without losing alignment.
+
+
+* 🤖 **Continual Learning for Vision-Language-Action (VLA) Models**: Transitioning to Embodied AI where cross-modal feature drift precipitates cascading physical failures, requiring skill-compositional strategies.
+
+
+* 📐 **Towards a Theoretical Understanding**: Developing mathematical models for cross-modal feature drift and theoretical bounds for Parameter-Efficient Adaptation.
+
+
+---
 
 ### 📊 Evaluation Metrics
 Regarding the detailed evaluation metrics (such as average accuracy, forgetting rate, zero-shot capability degradation, etc.), we provide a clear and intuitive diagram (as shown below) in the paper for comprehensive explanation. The diagram details how each metric is calculated.
